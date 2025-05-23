@@ -2,6 +2,8 @@
 
 This is a frontend-only patient registration application built using React and PGlite. It allows users to register new patient records, query existing records using raw SQL, and ensures data persistence and synchronization across multiple browser tabs.
 
+## Live: [Click here](https://patient-registration-dun.vercel.app/)
+
 ## Features
 
 * **Patient Registration:** Easily register new patients by providing their name, date of birth, and email.
@@ -69,9 +71,6 @@ This application is designed for easy deployment to platforms like Vercel or Net
     * Create a new project and connect it to your Git repository.
     * The platforms will automatically detect it's a React project built with Vite and configure the build process.
     * Trigger a deployment.
-
-## Live: [Click here](https://patient-registration-dun.vercel.app/)
-
 
 ## Challenges Faced During Development
 
