@@ -1,6 +1,6 @@
 # Patient Registration App
 
-This is a frontend-only patient registration application built using React and PGlite. It allows users to register new patient records, query existing records using raw SQL, and ensures data persistence and synchronization across multiple browser tabs.
+This is a patient registration application built using React and PGlite. It allows users to register new patient records, query existing records using raw SQL, and ensures data persistence and synchronization across multiple browser tabs.
 
 ## Live: [Click here](https://patient-registration-dun.vercel.app/)
 
