@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import db from '../db';
+import db from '../db'; // Assuming '../db' correctly points to your database utility
 
 export default function PatientForm() {
     const [name, setName] = useState('');
@@ -12,6 +12,10 @@ export default function PatientForm() {
             'INSERT INTO patients (name, dob, email) VALUES ($1, $2, $3)',
             [name, dob, email]
         );
+
+        const channel = new BroadcastChannel('db-updates');
+        channel.postMessage({ type: 'update' });
+
         // Reset form
         setName('');
         setDob('');
