@@ -70,7 +70,8 @@ This application is designed for easy deployment to platforms like Vercel or Net
     * The platforms will automatically detect it's a React project built with Vite and configure the build process.
     * Trigger a deployment.
 
-Your application will be accessible at a publicly available URL provided by the deployment service.
+## Live: [Click here](https://patient-registration-dun.vercel.app/)
+
 
 ## Challenges Faced During Development
 
